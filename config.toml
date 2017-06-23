@@ -1,32 +1,18 @@
-baseurl = "https://naoimporta.com/"
-title = "mytitle"
-theme = "blank"
-languageCode = "en-us"
-copyright = "My Name"
-googleAnalytics = "XXX"
-disqusShortname = "XXX"
+languageCode = "pt-br"
+builddrafts = false
+baseUrl = "http://naoimporta.com/"
+canonifyurls = true
+title = "Pixyll"
+author = "fabioluciano"
+theme = "hugo-theme-pixyll"
 
-[Author]
-    name = "Fábio Luciano"
-    profile = "http://github.com/fabioluciano"
+[indexes]
+  category = "categories"
+  tag = "tags"
 
-[Taxonomies]
-    tag = "tags"
-
-[Permalinks]
-    post = "/:year/:slug/"
-
-[[menu.main]]
-    name = "Blog"
-    url = "/"
-    weight = 1
-
-[[menu.main]]
-    name = "Projetos"
-    url = "/page/projetos"
-    weight = 2
-
-[[menu.main]]
-    name = "Sobre"
-    url = "/page/sobre/"
-    weight = 4
+[params]
+  search_engine = true
+  google_analytics_id = "UA-24614996-1"
+  twitter_username = "fabioluciano"
+  disqus_shortname = "noimporta"
+  paginate = true
