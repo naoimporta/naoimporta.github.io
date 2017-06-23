@@ -12,4 +12,4 @@ cd master
 
 git add -A :/
 git commit -a -m "Travis Deploy"
-git push "https://${GH_TOKEN}@${GH_REPO}" master > /dev/null 2>&1
+git push "https://${GH_TOKEN}@${GH_REPO}" master
