@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://naoimporta.com/2017/desistindo-oficialmente-do-wordpress/</loc>
+    <lastmod>2017-06-22T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://naoimporta.com/page/sobre/</loc>
+    <lastmod>2015-04-03T02:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://naoimporta.com/page/projetos/</loc>
+  </url>
+  
+  <url>
+    <loc>https://naoimporta.com/page/</loc>
+    <lastmod>2015-04-03T02:13:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://naoimporta.com/post/</loc>
+    <lastmod>2017-06-22T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://naoimporta.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://naoimporta.com/</loc>
+    <lastmod>2017-06-22T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
