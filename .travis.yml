@@ -1,0 +1,13 @@
+language: go
+sudo: required
+git:
+  submodules: true
+install:
+- go get -v github.com/spf13/hugo
+script: bash ./deploy.sh
+notifications:
+  email:
+    on_failure: always
+env:
+  global:
+    secure: Wp1zs2r8ls2PSitS3My/UhWhMoqLIUKlI4w7bfA1kQ6GLhG6iLGb6LKvcwM06kpQ4G5wtPVbbNU9YBIhtZvmeVwWQrHaoneMO3ovseFFKZ3x+r6AZVRFDFtMpdxbvBfAxNWq5lDJqSTgxc/5vI/FCyf7tHtiOaC2xkRHhBm+leApHcWhI4kTgI3uXMw5vM+SKcxzeCEqslxhqgo74atL1uCdvrIZvXFbHcP40T+V/yMzpmEFH1xtR4SJt1uDBch3M2PYBGg8jbKaC8Cts/XmlpA5ANkZTy/LQwtPS3eqTbiO/wsObHuAGZwuIT0qjgMWd2GHxPB0Qpehf+xQcui2KpI5ud77fXcKHbnXjNpP0mH3rGqJA8EalwYqDNpW9/GUxNasJH8RbBTXrqg8f05Up7bjJpVNkBo716uw8WCqAZ85VgfMX6fFHmTM986ekRKiH+3FQp8TX9P3dWc0p+6Ji3wU3C9UzVrBiqW+DJ5YuV+W0KZ6wcD2f3ycQ8rohnhmw+Tn2ZWjI/aemunw+HwSs2xRHUuIdWuywOlFwDS1PRObPgwqy0ZD0fvHsQR2+8bCPxx8A9k+INSughZlGngNzUiluBwwa4wINW+5Dif9cpZ+5o7hYw9J+GdLHxlgoYM3CqPOLafuEBfQf/trcNCjZTSxWNmt0vHcookkp1ORPZA=

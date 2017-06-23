@@ -1,0 +1,32 @@
+baseurl = "https://naoimporta.com/"
+title = "mytitle"
+theme = "blank"
+languageCode = "en-us"
+copyright = "My Name"
+googleAnalytics = "XXX"
+disqusShortname = "XXX"
+
+[Author]
+    name = "Fábio Luciano"
+    profile = "http://github.com/fabioluciano"
+
+[Taxonomies]
+    tag = "tags"
+
+[Permalinks]
+    post = "/:year/:slug/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projetos"
+    url = "/page/projetos"
+    weight = 2
+
+[[menu.main]]
+    name = "Sobre"
+    url = "/page/sobre/"
+    weight = 4
