@@ -2,7 +2,7 @@ languageCode = "pt-br"
 builddrafts = false
 baseUrl = "http://naoimporta.com/"
 canonifyurls = true
-title = "Pixyll"
+title = "Não importa"
 author = "fabioluciano"
 theme = "hugo-theme-pixyll"
 

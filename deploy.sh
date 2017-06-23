@@ -5,7 +5,7 @@ git config --global user.name "Fabio Luciano"
 
 git clone --recursive -b development 'https://'$GH_REPO development
 git clone -b master 'https://'$GH_REPO master
-hugo --source development --theme=blank
+hugo --source development
 find ./master -not -path '*/\.git*' -not -path './master' -exec rm -fR {} \;
 mv development/public/* master
 cd master
