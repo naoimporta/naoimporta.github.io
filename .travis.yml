@@ -2,9 +2,12 @@ language: go
 sudo: required
 git:
   submodules: true
+addons:
+  apt:
+    packages:
+      - python-pygments
 install:
 - go get -v github.com/spf13/hugo
-- sudo apt-get install python3-pygments
 script: bash ./deploy.sh
 notifications:
   email:
