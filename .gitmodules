@@ -1,3 +1,3 @@
 [submodule "themes/naoimporta"]
 	path = themes/naoimporta
-	url = git@github.com:fabioluciano/naoimporta-theme.git
+	url = https://github.com/naoimporta/naoimporta-theme.git
