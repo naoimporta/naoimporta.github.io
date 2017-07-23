@@ -4,7 +4,7 @@ git:
   submodules: true
 install:
 - go get -v github.com/spf13/hugo
-- gem install coderay pygments.rb
+- pip install Pygments
 script: bash ./deploy.sh
 notifications:
   email:
