@@ -1,18 +1,50 @@
+baseurl = "http://naoimporta.com"
 languageCode = "pt-br"
-builddrafts = false
-baseUrl = "http://naoimporta.com/"
-canonifyurls = true
-title = "Não importa"
-author = "fabioluciano"
-theme = "hugo-theme-pixyll"
+title = "Não Importa"
+theme = "naoimporta"
+paginate = 10
 
-[indexes]
-  category = "categories"
-  tag = "tags"
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+PygmentsUseClasses = false
 
-[params]
-  search_engine = true
-  google_analytics_id = "UA-24614996-1"
-  twitter_username = "fabioluciano"
-  disqus_shortname = "noimporta"
-  paginate = true
+[Permalinks]
+    artigo = "artigo/:slug"
+
+[Taxonomies]
+    tag = "tags"
+    categories = "categories"
+    projetos = "projetos"
+
+[Params]
+    languagecode = "pt-BR"
+    author = "Fábio Luciano"
+    twitter = "https://twitter.com/fabioluciano"
+    github = "https://github.com/fabioluciano"
+    stackoverflow = "https://stackoverflow.com/users/2971028/fabioluciano"
+    facebook = "https://www.facebook.com/fabioluciano"
+    linkedin = "https://www.linkedin.com/in/fabioluciano"
+    email =  "fabio@naoimporta.com"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Artigos"
+    url = "/artigo"
+    weight = 2
+
+[[menu.main]]
+    name = "Menções"
+    url = "/mencao"
+    weight = 3
+
+[[menu.main]]
+    name = "Projetos"
+    url = "/projeto"
+    weight = 4
+
+[params.strings]
+    date_format = '02-01-2006'
