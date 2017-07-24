@@ -36,10 +36,10 @@ PygmentsUseClasses = false
     url = "/artigo"
     weight = 2
 
-[[menu.main]]
-    name = "Menções"
-    url = "/mencao"
-    weight = 3
+# [[menu.main]]
+#     name = "Menções"
+#     url = "/mencao"
+#     weight = 3
 
 [[menu.main]]
     name = "Projetos"
