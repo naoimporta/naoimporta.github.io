@@ -2,6 +2,10 @@ language: go
 sudo: required
 git:
   submodules: true
+addons:
+  apt:
+    packages:
+      - python-pygments
 install:
 - go get -v github.com/spf13/hugo
 script: bash ./deploy.sh
