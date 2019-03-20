@@ -7,11 +7,17 @@ addons:
     packages:
       - python-pygments
 install:
-- go get -v github.com/spf13/hugo
-script: bash ./deploy.sh
+  - go get -v github.com/spf13/hugo
+script:
+  - hugo
 notifications:
   email:
     on_failure: always
-env:
-  global:
-    secure: mDre7kpE82b6qn3xEwpjy79nqNIoju5351soqidVq5+smZuOdtXOHVTbhwvOJCtZ++uoIZFq5zObkZDPAo5d1a/SaBpEOTAgK60enZo8gtWauWxrXBGGnIh1Ii4CBxo3GFp4w/Ut1v3b1uq8J7OHqIl1auZ9wyMv6Nu1ttXo5P5iFjFxJjnoIbC/39ArhjWVJl5Y5/gFt7BUyHHW/+GyK142EZRrclSW7tPRBXsUDU1NS7NYvXyc58zRStpnHTukoB0AzqMaZpvTyncxo+U71GvVBFfFQDHBvwTRkMT3OwhLWFXxpXZ0huj5MuMTUongHG6BSP9ZhF1jpSbAE364NpW/I6C0rVHqVbfiuX7I0WxkgeTDhfQQuXrgOhwOgwiwB5OA1XrYi7gnjqQZlTjADoGvfzcyzZKl6889YPq5wb7dhU3zJxbsYbZXc+D1MywwWyxdjDp5XDsbkHskBvl41y9S4jypMSvl/ZurMyv/2Ra37GrP+zqr/2Y2UmN02wmvpa4+17raxhx7iRFa9SNzpOqxf1kZy3sWRKqqS8s0GQCDwe7h/vY+FmvBGPWgbvAypPUzZqa+70OCsLF19o7yekZqAUOOBmHQnUk9qrY8XB6jsC+vXT78BJKMdH0zU+4nH29hycg4BhdJME5FGysyJwR+TDNYR5Lu92e286cbV1M=
+deploy:
+  provider: pages
+  target-branch: master
+  skip_cleanup: true
+  local_dir: public/
+  github_token: $GH_TOKEN
+  on:
+    branch: development
