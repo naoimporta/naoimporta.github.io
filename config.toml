@@ -5,7 +5,7 @@ theme = "naoimporta"
 paginate = 10
 
 PygmentsCodeFences = true
-PygmentsStyle = "monokai"
+PygmentsStyle = "trac"
 PygmentsUseClasses = false
 
 [Permalinks]
@@ -32,14 +32,9 @@ PygmentsUseClasses = false
     weight = 1
 
 [[menu.main]]
-    name = "Artigos"
+    name = "Arquivos"
     url = "/artigo"
     weight = 2
-
-# [[menu.main]]
-#     name = "Menções"
-#     url = "/mencao"
-#     weight = 3
 
 [[menu.main]]
     name = "Projetos"
