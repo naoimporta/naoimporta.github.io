@@ -1,6 +1,6 @@
-baseurl = "https://naoimporta.com"
+baseurl = "https://blog.fabioluciano.dev"
 languageCode = "pt-br"
-title = "Não Importa"
+title = "Fábio Luciano"
 theme = "naoimporta"
 paginate = 10
 
