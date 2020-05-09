@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Fábio Luciano</title>
+    <link>https://blog.fabioluciano.dev/categories/</link>
+    <description>Recent content in Categories on Fábio Luciano</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 08 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.fabioluciano.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>rand</title>
+      <link>https://blog.fabioluciano.dev/categories/rand/</link>
+      <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.fabioluciano.dev/categories/rand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>https://blog.fabioluciano.dev/categories/devops/</link>
+      <pubDate>Sun, 23 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.fabioluciano.dev/categories/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sys</title>
+      <link>https://blog.fabioluciano.dev/categories/sys/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.fabioluciano.dev/categories/sys/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

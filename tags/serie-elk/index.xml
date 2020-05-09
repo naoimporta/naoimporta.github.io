@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>serie-elk on Fábio Luciano</title>
+    <link>https://blog.fabioluciano.dev/tags/serie-elk/</link>
+    <description>Recent content in serie-elk on Fábio Luciano</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sun, 23 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.fabioluciano.dev/tags/serie-elk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Conhecendo as ferramentas da stack ELK</title>
+      <link>https://blog.fabioluciano.dev/artigo/conhecendo-as-ferramentas-da-stack-elk/</link>
+      <pubDate>Sun, 23 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.fabioluciano.dev/artigo/conhecendo-as-ferramentas-da-stack-elk/</guid>
+      <description>Nesta série de artigos, será feito um overview com exemplos práticos de utilização das ferramenta da stack ELK da empresa Elastic. ELK será mencionado em diversas oportunidades para simplificar a menção do conjunto de ferramentas desta stack denominada ELK. Cada letra do acrônimo é a inicial das principais ferramentas, como visto abaixo:
+ Logstash - Gerenciador de logs - Coleta dados ou logs de forma seriada de distintas fontes, realiza processamento e roteamento automático; Elasticsearch - Repositório distribuído de documentos - Armazena e processa documentos json.</description>
+    </item>
+    
+  </channel>
+</rss>

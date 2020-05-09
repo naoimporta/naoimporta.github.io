@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wordpress on Fábio Luciano</title>
+    <link>https://blog.fabioluciano.dev/tags/wordpress/</link>
+    <description>Recent content in wordpress on Fábio Luciano</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Tue, 21 Jun 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.fabioluciano.dev/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Desistindo de vez do wordpress</title>
+      <link>https://blog.fabioluciano.dev/artigo/desistindo-de-vez-do-wordpress/</link>
+      <pubDate>Tue, 21 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.fabioluciano.dev/artigo/desistindo-de-vez-do-wordpress/</guid>
+      <description>Com este post, desisto oficialmente do wordpress. Poderia perder meu tempo explicando por que esse software é escroto, mas depois de passar quatro seguidos anos pelo mesmo problema, desisto. Volto feliz para aos geradores estáticos, e talvez consiga escrever com mais frequência.</description>
+    </item>
+    
+  </channel>
+</rss>

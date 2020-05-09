@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  
+  <meta charset="utf-8">
+  <title>Fábio Luciano - Conhecendo as ferramentas da stack ELK</title>
+  <meta name="description" content="">
+  <meta name="author" content="Fábio Luciano">
+
+  <meta name="generator" content="" />
+  <meta name="robots" content="index,follow">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  
+  <link rel="stylesheet" href="https://blog.fabioluciano.dev/css/normalize.css">
+  <link rel="stylesheet" href="https://blog.fabioluciano.dev/css/skeleton.css">
+  <link rel="stylesheet" href="https://blog.fabioluciano.dev/css/custom.css">
+  <link rel="stylesheet" href="https://blog.fabioluciano.dev/css/pygments.css">
+  <link rel="stylesheet" href="https://blog.fabioluciano.dev/css/font-awesome.min.css">
+
+  
+  <link rel="icon" type="image/png" href="https://blog.fabioluciano.dev/images/favicon.png">
+</head>
+
+<div class="container">
+    <div id="header">
+      <div id="brand" class="row">
+          <div class="twelve columns">
+            <img src="https://blog.fabioluciano.dev/images/naoimporta-min.png" />
+          </div>
+      </div>
+
+        <div class="row">
+            <div class="twelve columns">
+                <nav >
+                    <ul id="navbar">
+                        
+                        
+                            <li >
+                                <a href="/">Blog</a></li>
+                        
+                            <li >
+                                <a href="/artigo">Arquivos</a></li>
+                        
+                            <li >
+                                <a href="/projeto">Projetos</a></li>
+                        
+                            <li >
+                                <a href="/pagina/sobre/">Sobre</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+  
+    <div class="container">
+        <div class="row">
+            <article class="post u-cf">
+    <div class="row">
+        <div class="twelve columns">
+            <h1 class="post-title"><a href="https://blog.fabioluciano.dev/artigo/conhecendo-as-ferramentas-da-stack-elk/">Conhecendo as ferramentas da stack ELK</a></h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns">
+            <div class="post-meta-info">
+                <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                
+                    23/07/2017
+                
+                <span class="post-meta-info-taxonomy">
+                    | <i class="fa fa-folder-o" aria-hidden="true"></i>
+                        <a href="/categories/devops">devops</a>
+                    | <i class="fa fa-tag" aria-hidden="true"></i>
+                        
+<a href="/tags/elk">elk</a>, 
+<a href="/tags/serie">serie</a>, 
+<a href="/tags/elasticsearch">elasticsearch</a>, 
+<a href="/tags/logstash">logstash</a>, 
+<a href="/tags/kibana">kibana</a>, 
+<a href="/tags/serie-elk">serie-elk</a>, 
+<a href="/tags/bigdata">bigdata</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="post-content row">
+        <div class="twelve columns">
+            <p>Nesta série de artigos, será feito um <em>overview</em> com exemplos práticos de utilização das ferramenta da <em>stack</em> <em>ELK</em> da empresa <code>Elastic</code>. <em>ELK</em> será mencionado em diversas oportunidades para simplificar a menção do conjunto de ferramentas desta <em>stack</em> denominada <em>ELK</em>. Cada letra do acrônimo é a inicial das principais ferramentas, como visto abaixo:</p>
+<ul>
+<li><strong>Logstash</strong> - Gerenciador de <em>logs</em> - Coleta dados ou <em>logs</em> de forma seriada de distintas fontes, realiza processamento e roteamento automático;</li>
+<li><strong>Elasticsearch</strong> - Repositório distribuído de documentos - Armazena e processa documentos <code>json</code>. Possui funcionalidades poderosas e ferramentas para consultas e buscar dados em documentos;</li>
+<li><strong>Kibana</strong> - Interface rica para visualização de dados em tempo real - Realiza a camada de apresentação dos dados em consultas feitas a dados armazenados no <code>elasticsearch</code>.</li>
+</ul>
+<p>Para estabelecer o entendimento dos conceitos que a <em>stack</em> proprõem-se como solução, também abordaremos conhecimentos básicos de <em>bigdata</em> e ferramentas para interação com a <em>stack</em>.</p>
+<p>Para acompanhar todos os artigos desta série veja a tag <a href="/tags/serie-elk">serie-elk</a>.</p>
+
+        </div>
+    </div>
+</article>
+
+        </div>
+    </div>
+  
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <div id="social">
+                    
+                        <a title="Twitter" href="https://twitter.com/fabioluciano">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    
+                    
+                        <a title="LinkedIn" href="https://www.linkedin.com/in/fabioluciano">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                    
+                    
+                        <a title="GitHub" href="https://github.com/fabioluciano">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    
+                    
+                        <a title="StackOverflow" href="https://stackoverflow.com/users/2971028/fabioluciano">
+                            <i class="fa fa-stack-overflow"></i>
+                        </a>
+                    
+                    
+                    
+                        <a title="Facebook" href="https://www.facebook.com/fabioluciano">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    
+                    
+                        <a title="Email" href="fabio@naoimporta.com">
+                            <i class="fa fa-envelope-o"></i>
+                        </a>
+                    
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="twelve columns" id="copyright">&copy; 2020 ~ Fábio Luciano / Powered by <a href="http://gohugo.io/">Hugo</div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+

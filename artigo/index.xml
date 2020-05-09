@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artigos on Fábio Luciano</title>
+    <link>https://blog.fabioluciano.dev/artigo/</link>
+    <description>Recent content in Artigos on Fábio Luciano</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 08 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.fabioluciano.dev/artigo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Eu odeio atualizar meu currículo</title>
+      <link>https://blog.fabioluciano.dev/artigo/eu-odeio-atualizar-meu-curr%C3%ADculo/</link>
+      <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.fabioluciano.dev/artigo/eu-odeio-atualizar-meu-curr%C3%ADculo/</guid>
+      <description>Você já teve que enviar seu &amp;ldquo;currículo atualizado&amp;rdquo; para se candidatar a uma vaga e não sabia qual era a última versão que corrigia aquele errinho de português que não tinha percebido? Acho que todo mundo eventualmente passa ou passará por isso. Não eu. Isso ficou no passado.
+Isso sempre me incomodou mais do que eu gostaria.</description>
+    </item>
+    
+    <item>
+      <title>Conhecendo as ferramentas da stack ELK</title>
+      <link>https://blog.fabioluciano.dev/artigo/conhecendo-as-ferramentas-da-stack-elk/</link>
+      <pubDate>Sun, 23 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.fabioluciano.dev/artigo/conhecendo-as-ferramentas-da-stack-elk/</guid>
+      <description>Nesta série de artigos, será feito um overview com exemplos práticos de utilização das ferramenta da stack ELK da empresa Elastic. ELK será mencionado em diversas oportunidades para simplificar a menção do conjunto de ferramentas desta stack denominada ELK. Cada letra do acrônimo é a inicial das principais ferramentas, como visto abaixo:
+ Logstash - Gerenciador de logs - Coleta dados ou logs de forma seriada de distintas fontes, realiza processamento e roteamento automático; Elasticsearch - Repositório distribuído de documentos - Armazena e processa documentos json.</description>
+    </item>
+    
+    <item>
+      <title>Instalando o virtualbox 5.1 no ubuntu</title>
+      <link>https://blog.fabioluciano.dev/artigo/instalando-o-virtualbox-5.1-no-ubuntu/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.fabioluciano.dev/artigo/instalando-o-virtualbox-5.1-no-ubuntu/</guid>
+      <description>Um dos maiores desafios atuais dos desenvolvedores é a implementação agnóstica aos ambientes disponíveis. Mas isso, infelizmente, nem sempre é a realidade, principalmente se você utiliza o Linux em seu desktop ou notebook, e necessita fazer testes em ambientes Windows. Para resolver tais problemas diversos são disponíveis, e grande parte delas envolvem tecnologias de virtualizações de ambientes. Dois são os aplicativos principais no mercado atualmente, o VMWare e o Virtualbox, e por motivos de sinergia entre as ferramentas disponíveis(Vagrant), utilizaremos o VirtualBox.</description>
+    </item>
+    
+    <item>
+      <title>Desistindo de vez do wordpress</title>
+      <link>https://blog.fabioluciano.dev/artigo/desistindo-de-vez-do-wordpress/</link>
+      <pubDate>Tue, 21 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.fabioluciano.dev/artigo/desistindo-de-vez-do-wordpress/</guid>
+      <description>Com este post, desisto oficialmente do wordpress. Poderia perder meu tempo explicando por que esse software é escroto, mas depois de passar quatro seguidos anos pelo mesmo problema, desisto. Volto feliz para aos geradores estáticos, e talvez consiga escrever com mais frequência.</description>
+    </item>
+    
+  </channel>
+</rss>

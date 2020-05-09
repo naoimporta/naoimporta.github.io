@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projetos on Fábio Luciano</title>
+    <link>https://blog.fabioluciano.dev/projeto/</link>
+    <description>Recent content in Projetos on Fábio Luciano</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Thu, 22 Jun 2017 20:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.fabioluciano.dev/projeto/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Projetos - Docker Library</title>
+      <link>https://blog.fabioluciano.dev/projeto/docker-library/</link>
+      <pubDate>Thu, 22 Jun 2017 20:00:00 +0000</pubDate>
+      
+      <guid>https://blog.fabioluciano.dev/projeto/docker-library/</guid>
+      <description>Com este post, desisto oficialmente do wordpress.</description>
+    </item>
+    
+  </channel>
+</rss>
